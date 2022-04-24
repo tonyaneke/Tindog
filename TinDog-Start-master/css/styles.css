@@ -1,0 +1,203 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1,h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat'
+}
+
+
+/* headings */
+
+.big-heading {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* container */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: white;
+}
+
+/* title section */
+
+#title {
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+
+/* navigation-bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+
+/* Download Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title-image */
+.T-image {
+  position: relative;
+}
+
+.title-image {
+  max-width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+
+/* Features setion */
+
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+
+.features-icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.features-text {
+  color: #8f8f8f;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonial section */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+/* press */
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+
+#pricing {
+  padding: 100px;
+}
+
+.section-heading {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+
+}
+
+
+/* card section */
+.card {
+  margin: 20px auto 20px auto;
+}
+
+.card-header {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.Mastiff {
+  line-height: 0.9;
+}
+
+/* footer */
+
+.footer-icon {
+  margin: 20px 10px;
+}
